@@ -1,0 +1,17 @@
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\bin\Debug\net6.0\Codebase.DAL.deps.json
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\bin\Debug\net6.0\Codebase.DAL.runtimeconfig.json
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\bin\Debug\net6.0\Codebase.DAL.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\bin\Debug\net6.0\Codebase.DAL.pdb
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\bin\Debug\net6.0\Codebase.Entities.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\bin\Debug\net6.0\Codebase.Entities.pdb
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.csproj.AssemblyReference.cache
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.AssemblyInfoInputs.cache
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.AssemblyInfo.cs
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.csproj.CopyComplete
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\refint\Codebase.DAL.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.pdb
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.genruntimeconfig.cache
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\ref\Codebase.DAL.dll

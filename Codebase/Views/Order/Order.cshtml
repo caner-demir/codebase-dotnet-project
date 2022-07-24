@@ -1,0 +1,42 @@
+﻿@model OrderVM
+
+@{
+    ViewData["Title"] = "Order";
+}
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="CustomerProduct.Product.Id" />
+    <input type="hidden" asp-for="CustomerProduct.Product.Name" />
+    <input type="hidden" asp-for="CustomerProduct.Product.Quantity" />
+    <table class="table table-bordered mt-5">
+        <thead>
+            <tr>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Müşteri Adı</th>
+                <th scope="col">Adedi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Model.CustomerProduct.Product.Name
+                </td>
+                <td>
+                    @Html.DropDownListFor(m => m.CustomerProduct.Customer.Id, Model.CustomerList, "- Müşteri Seçiniz.",
+                    new { @class = "form-control" })
+                </td>
+                <td>
+                    <input asp-for="Quantity" class="form-control" />
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="form-group row">
+        <div class="col-12">
+            <button class="btn btn-primary">Çıkış Yap</button>
+            <a asp-controller="Product" asp-action="Index" class="btn btn-success">Ürün Listesi</a>
+        </div>
+    </div>
+</form>

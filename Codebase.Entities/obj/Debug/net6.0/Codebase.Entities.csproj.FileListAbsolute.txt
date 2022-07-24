@@ -1,0 +1,12 @@
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\bin\Debug\net6.0\Codebase.Entities.deps.json
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\bin\Debug\net6.0\Codebase.Entities.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\bin\Debug\net6.0\Codebase.Entities.pdb
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\obj\Debug\net6.0\Codebase.Entities.csproj.AssemblyReference.cache
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\obj\Debug\net6.0\Codebase.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\obj\Debug\net6.0\Codebase.Entities.AssemblyInfoInputs.cache
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\obj\Debug\net6.0\Codebase.Entities.AssemblyInfo.cs
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\obj\Debug\net6.0\Codebase.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\obj\Debug\net6.0\Codebase.Entities.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\obj\Debug\net6.0\refint\Codebase.Entities.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\obj\Debug\net6.0\Codebase.Entities.pdb
+C:\Users\Caner Demir\Caner\Codebase\Codebase.Entities\obj\Debug\net6.0\ref\Codebase.Entities.dll
