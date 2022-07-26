@@ -15,3 +15,5 @@ C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\refint\Codebas
 C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.pdb
 C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\Codebase.DAL.genruntimeconfig.cache
 C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\obj\Debug\net6.0\ref\Codebase.DAL.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\bin\Debug\net6.0\Codebase.Core.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.DAL\bin\Debug\net6.0\Codebase.Core.pdb

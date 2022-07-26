@@ -2302,6 +2302,19 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Codebase.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.7"
+        },
+        "compile": {
+          "bin/placeholder/Codebase.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Codebase.Core.dll": {}
+        }
+      },
       "Codebase.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2321,6 +2334,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Codebase.Core": "1.0.0",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
         },
         "compile": {
@@ -7475,6 +7489,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Codebase.Core/1.0.0": {
+      "type": "project",
+      "path": "../Codebase.Core/Codebase.Core.csproj",
+      "msbuildProject": "../Codebase.Core/Codebase.Core.csproj"
     },
     "Codebase.DAL/1.0.0": {
       "type": "project",

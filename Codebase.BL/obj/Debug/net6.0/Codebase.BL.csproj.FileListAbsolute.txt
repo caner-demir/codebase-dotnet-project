@@ -15,3 +15,5 @@ C:\Users\Caner Demir\Caner\Codebase\Codebase.BL\obj\Debug\net6.0\Codebase.BL.dll
 C:\Users\Caner Demir\Caner\Codebase\Codebase.BL\obj\Debug\net6.0\refint\Codebase.BL.dll
 C:\Users\Caner Demir\Caner\Codebase\Codebase.BL\obj\Debug\net6.0\Codebase.BL.pdb
 C:\Users\Caner Demir\Caner\Codebase\Codebase.BL\obj\Debug\net6.0\ref\Codebase.BL.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.BL\bin\Debug\net6.0\Codebase.Core.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase.BL\bin\Debug\net6.0\Codebase.Core.pdb

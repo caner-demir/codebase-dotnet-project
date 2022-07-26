@@ -1,5 +1,6 @@
 ﻿using Codebase.DAL.Abstract;
 using Codebase.Entities;
+using Codebase.Core.DataAccess.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Codebase.DAL.Concrete.EntityFramework
 {
-    public class EFProductRepository : EFRepository<Product>, IProductRepository
+    public class EFProductRepository : EFEntityRepository<Product, ApplicationDbContext>, IProductRepository
     {
     }
 }

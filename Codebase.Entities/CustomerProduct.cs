@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Codebase.Core.Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Codebase.Entities
 {
-    public class CustomerProduct
+    public class CustomerProduct : IEntity
     {
         public int CustomerId { get; set; }
         public Customer Customer { get; set; }

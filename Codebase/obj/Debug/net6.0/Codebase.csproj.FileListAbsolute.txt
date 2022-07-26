@@ -269,3 +269,6 @@ C:\Users\Caner Demir\Caner\Codebase\Codebase\bin\Debug\net6.0\Microsoft.AspNetCo
 C:\Users\Caner Demir\Caner\Codebase\Codebase\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Caner Demir\Caner\Codebase\Codebase\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Caner Demir\Caner\Codebase\Codebase\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase\obj\Debug\net6.0\Codebase.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Caner Demir\Caner\Codebase\Codebase\bin\Debug\net6.0\Codebase.Core.dll
+C:\Users\Caner Demir\Caner\Codebase\Codebase\bin\Debug\net6.0\Codebase.Core.pdb

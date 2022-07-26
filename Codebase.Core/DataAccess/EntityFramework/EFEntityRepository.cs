@@ -1,4 +1,4 @@
-﻿using Codebase.DAL.Abstract;
+﻿using Codebase.Core.Entities.Abstract;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,32 +7,34 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Codebase.DAL.Concrete.EntityFramework
+namespace Codebase.Core.DataAccess.EntityFramework
 {
-    public class EFRepository<T> : IEntityRepository<T> where T : class
+    public class EFEntityRepository<TEntity, TContext> : IEntityRepository<TEntity>
+        where TEntity : class, IEntity
+        where TContext : DbContext, new()
     {
-        public void Add(T entity)
+        public void Add(TEntity entity)
         {
-            using (ApplicationDbContext context = new ApplicationDbContext())
+            using (TContext context = new TContext())
             {
-                context.Add<T>(entity);
+                context.Add<TEntity>(entity);
                 context.SaveChanges();
             }
         }
 
-        public T? Get(int id)
+        public TEntity? Get(int id)
         {
-            using (ApplicationDbContext context = new ApplicationDbContext())
+            using (TContext context = new TContext())
             {
-                return context.Set<T>().Find(id);
+                return context.Set<TEntity>().Find(id);
             }
         }
 
-        public List<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
+        public List<TEntity> GetAll(Expression<Func<TEntity, bool>>? filter = null, string? includeProperties = null)
         {
-            using (ApplicationDbContext context = new ApplicationDbContext())
+            using (TContext context = new TContext())
             {
-                IQueryable<T> query = context.Set<T>();
+                IQueryable<TEntity> query = context.Set<TEntity>();
 
                 if (filter != null)
                 {
@@ -51,18 +53,18 @@ namespace Codebase.DAL.Concrete.EntityFramework
             }
         }
 
-        public void Remove(T entity)
+        public void Remove(TEntity entity)
         {
-            using (ApplicationDbContext context = new ApplicationDbContext())
+            using (TContext context = new TContext())
             {
                 context.Remove(entity);
                 context.SaveChanges();
             }
         }
 
-        public void Update(T entity)
+        public void Update(TEntity entity)
         {
-            using (ApplicationDbContext context = new ApplicationDbContext())
+            using (TContext context = new TContext())
             {
                 var updatedEntity = context.Entry(entity);
                 updatedEntity.State = EntityState.Modified;

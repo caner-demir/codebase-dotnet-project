@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Codebase.Core.Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Codebase.Entities
 {
-    public class Customer
+    public class Customer : IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }
