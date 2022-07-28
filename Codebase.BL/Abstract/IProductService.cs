@@ -1,4 +1,4 @@
-﻿using Codebase.Entities;
+﻿using Codebase.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,6 @@ namespace Codebase.BL.Abstract
         List<Product> GetAll();
         void Add(Product product);
         void Update(Product product);
-        void DecreaseProductQuantity(Product product, int quantity);
         void Delete(int id);
     }
 }

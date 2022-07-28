@@ -1,7 +1,7 @@
 ﻿using Codebase.BL.Abstract;
 using Codebase.DAL.Abstract;
 using Codebase.DAL.Concrete.EntityFramework;
-using Codebase.Entities;
+using Codebase.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,12 +36,6 @@ namespace Codebase.BL.Concrete
 
         public void Update(Product product)
         {
-            _productRepository.Update(product);
-        }
-
-        public void DecreaseProductQuantity(Product product, int quantity)
-        {
-            product.Quantity -= quantity;
             _productRepository.Update(product);
         }
 

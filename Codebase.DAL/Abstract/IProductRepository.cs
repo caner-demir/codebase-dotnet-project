@@ -1,5 +1,5 @@
 ﻿using Codebase.Core.DataAccess;
-using Codebase.Entities;
+using Codebase.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;

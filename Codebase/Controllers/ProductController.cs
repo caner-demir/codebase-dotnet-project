@@ -1,10 +1,10 @@
 ﻿using Codebase.BL.Abstract;
 using Codebase.BL.Concrete;
 using Codebase.DAL.Concrete.EntityFramework;
-using Codebase.Entities;
 using Codebase.BL.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Codebase.Entities.Concrete;
 
 namespace Codebase.Controllers
 {

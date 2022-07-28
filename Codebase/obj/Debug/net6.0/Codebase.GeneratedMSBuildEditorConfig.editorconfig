@@ -15,8 +15,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Caner Demir\Caner\Codebase\Codebase
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Caner Demir/Caner/Codebase/Codebase/Views/Order/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+[C:/Users/Caner Demir/Caner/Codebase/Codebase/Views/Order/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcR2V0QWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Caner Demir/Caner/Codebase/Codebase/Views/Order/Order.cshtml]

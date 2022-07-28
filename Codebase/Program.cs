@@ -9,10 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<ICustomerProductRepository, EFCustomerProductRepository>();
+builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
 builder.Services.AddScoped<IOrderService, OrderService>();
-builder.Services.AddScoped<ICustomerRepository, EFCustomerRepository>();
-builder.Services.AddScoped<ICustomerService, CustomerService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

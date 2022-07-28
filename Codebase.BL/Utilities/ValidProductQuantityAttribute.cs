@@ -14,8 +14,8 @@ namespace Codebase.BL.Utilities
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var quantity = Convert.ToInt32(value);
-            var orderVM = (OrderVM)validationContext.ObjectInstance;
-            if (quantity < orderVM.CustomerProduct.Product.Quantity)
+            var AddOrderVM = (AddOrderVM)validationContext.ObjectInstance;
+            if (quantity < AddOrderVM.ProductQuantity)
             {
                 return ValidationResult.Success;
             }
