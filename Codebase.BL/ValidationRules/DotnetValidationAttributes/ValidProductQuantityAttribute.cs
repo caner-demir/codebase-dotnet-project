@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Codebase.BL.Utilities
+namespace Codebase.BL.ValidationRules.DotnetValidationAttributes
 {
     public class ValidProductQuantityAttribute : ValidationAttribute
     {

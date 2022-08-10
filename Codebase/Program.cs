@@ -1,16 +1,23 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Codebase.BL.Abstract;
 using Codebase.BL.Concrete;
+using Codebase.BL.DependencyResolvers.Autofac;
 using Codebase.DAL.Abstract;
 using Codebase.DAL.Concrete.EntityFramework;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+
+builder.Host.ConfigureContainer<ContainerBuilder>(builder => builder.RegisterModule(new AutofacBusinessModule()));
+
 // Add services to the container.
-builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IProductRepository, EFProductRepository>();
-builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IOrderRepository, EFOrderRepository>();
-builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddControllersWithViews().AddFluentValidation(configuratin =>
+{
+    configuratin.RegisterValidatorsFromAssemblyContaining<AutofacBusinessModule>();
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,4 +1,4 @@
-﻿using Codebase.BL.Utilities;
+﻿using Codebase.BL.ValidationRules.DotnetValidationAttributes;
 using Codebase.Entities.DTOs;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
@@ -15,7 +15,7 @@ namespace Codebase.BL.ViewModels
         public int ProductId { get; set; }
         public string ProductName { get; set; }
         public int ProductQuantity { get; set; }
-        [ValidProductQuantity]
+        //[ValidProductQuantity]
         public int OrderQuantity { get; set; }
         public IEnumerable<SelectListItem> CustomersSelectList { get; set; }
     }

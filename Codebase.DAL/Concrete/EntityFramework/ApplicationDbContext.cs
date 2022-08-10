@@ -12,7 +12,10 @@ namespace Codebase.DAL.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Codebase;Trusted_Connection=true");
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=Codebase;Trusted_Connection=true");
+            }
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
