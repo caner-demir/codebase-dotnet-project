@@ -1,0 +1,15 @@
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\bin\Debug\net6.0\Layered.Entities.deps.json
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\bin\Debug\net6.0\Layered.Entities.dll
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\bin\Debug\net6.0\Layered.Entities.pdb
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\bin\Debug\net6.0\Layered.Core.dll
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\bin\Debug\net6.0\Layered.Core.pdb
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\obj\Debug\net6.0\Layered.Entities.csproj.AssemblyReference.cache
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\obj\Debug\net6.0\Layered.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\obj\Debug\net6.0\Layered.Entities.AssemblyInfoInputs.cache
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\obj\Debug\net6.0\Layered.Entities.AssemblyInfo.cs
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\obj\Debug\net6.0\Layered.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\obj\Debug\net6.0\Layered.Entities.csproj.CopyComplete
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\obj\Debug\net6.0\Layered.Entities.dll
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\obj\Debug\net6.0\refint\Layered.Entities.dll
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\obj\Debug\net6.0\Layered.Entities.pdb
+C:\Users\Caner Demir\Caner\Layered\Layered.Entities\obj\Debug\net6.0\ref\Layered.Entities.dll

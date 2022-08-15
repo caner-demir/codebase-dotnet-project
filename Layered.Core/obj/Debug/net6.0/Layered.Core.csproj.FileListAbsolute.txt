@@ -1,0 +1,12 @@
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\bin\Debug\net6.0\Layered.Core.deps.json
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\bin\Debug\net6.0\Layered.Core.dll
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\bin\Debug\net6.0\Layered.Core.pdb
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\obj\Debug\net6.0\Layered.Core.csproj.AssemblyReference.cache
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\obj\Debug\net6.0\Layered.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\obj\Debug\net6.0\Layered.Core.AssemblyInfoInputs.cache
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\obj\Debug\net6.0\Layered.Core.AssemblyInfo.cs
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\obj\Debug\net6.0\Layered.Core.csproj.CoreCompileInputs.cache
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\obj\Debug\net6.0\Layered.Core.dll
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\obj\Debug\net6.0\refint\Layered.Core.dll
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\obj\Debug\net6.0\Layered.Core.pdb
+C:\Users\Caner Demir\Caner\Layered\Layered.Core\obj\Debug\net6.0\ref\Layered.Core.dll
